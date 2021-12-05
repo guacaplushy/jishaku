@@ -11,7 +11,7 @@ HelpCommand subclasses with jishaku features
 
 """
 
-from discord.ext import commands
+from redbot.core import commands
 
 from jishaku.paginators import PaginatorEmbedInterface, PaginatorInterface
 
