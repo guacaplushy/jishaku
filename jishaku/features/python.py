@@ -14,7 +14,7 @@ The jishaku Python evaluation/execution commands.
 import io
 
 import discord
-from discord.ext import commands
+from redbot.core import commands
 
 from jishaku.codeblocks import codeblock_converter
 from jishaku.exception_handling import ReplResponseReactor
