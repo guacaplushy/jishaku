@@ -14,7 +14,7 @@ Functions for modifying or interfacing with discord.py models.
 import copy
 
 import discord
-from discord.ext import commands
+from redbot.core import commands
 
 
 async def copy_context_with(ctx: commands.Context, *, author=None, channel=None, **kwargs):
