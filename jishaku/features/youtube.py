@@ -13,7 +13,7 @@ The jishaku youtube-dl command.
 
 import discord
 import youtube_dl
-from discord.ext import commands
+from redbot.core import commands
 
 from jishaku.features.baseclass import Feature
 from jishaku.features.voice import VoiceFeature
