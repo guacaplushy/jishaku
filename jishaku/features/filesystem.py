@@ -18,7 +18,7 @@ import re
 
 import aiohttp
 import discord
-from discord.ext import commands
+from redbot.core import commands
 
 from jishaku.exception_handling import ReplResponseReactor
 from jishaku.features.baseclass import Feature
