@@ -16,7 +16,7 @@ import typing
 import discord
 import discord.opus
 import discord.voice_client
-from discord.ext import commands
+from redbot.core import commands
 
 from jishaku.features.baseclass import Feature
 
