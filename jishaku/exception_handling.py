@@ -17,7 +17,7 @@ import traceback
 import typing
 
 import discord
-from discord.ext import commands
+from redbot.core import commands
 
 from jishaku.flags import Flags
 
